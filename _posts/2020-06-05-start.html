@@ -4,14 +4,23 @@ title: "Working with Alexa SDK"
 date: 2020-06-05 
 background: '/img/posts/02.jpg'
 ---
+
 <h2 class="section-heading">Alexa SDK set up</h2>
+
 <p> Getting Started with the AVS Device SDK: <a href="https://www.youtube.com/watch?v=eohsmliHI4A&t=814s/"> Getting Started</a>.</p>
+
 <p> Set Up the AVS SDK on MacOS: <a href="https://github.com/alexa/avs-device-sdk/"> Getting Started</a>.</p>
 
 <h2 class="section-heading">Alexa Results</h2>
+
 <p>1) Github - available code for embedded System devices, not embedded System (i.e., smart speakers). In other words, this code is different from the actual code used on the product.</p>
+
 <p>2) There is no signal processing in this code. What it does is to extract and package input from the Input Stream Buffer and upload it to the cloud in a process similar to Logistic.</p>
+
 <p>3) This part of the code should correspond to the CPU code on the Smart Speaker.</p>
+
 <p>4) In real smart Speaker or embedded System products, most noise reduction and signal processing should be carried out in DSP module, and DSP module inputs the audio after signal processing into CPU, namely the abstract input Stream Bubffer I mentioned above.</p>
+
 <p>To sum up, it makes no sense for us to look at this code, because the signal processing is not in the CPU but in the previous DSP module.</p>
+
 <p>In addition, you can verify what I see, in this code: AudioInputStream is CPU input, there is a global pointer to the buffer, buffer, speaking, reading and writing by InprocessAttachmentReader processing, AudioInputStream contained in AudioProvider class, AudioInProcessor class to handle input packaging upload all logistic work.</p>
