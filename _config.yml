@@ -1,8 +1,8 @@
-title:              SPQR Blog
+title:              Daily_Update
 email:              wklyu@umich.edu
-description:        A Weikun Lyu's Daily post for SPQR Research Lab
+description:        A Weikun Lyu's Daily post for my CS career
 author:             Weikun Lyu
-baseurl:            "/SPQR-Research-Lab"
+baseurl:            "/daily_update"
 url:                "https://wklyu.github.io"
 
 # Social Profiles
