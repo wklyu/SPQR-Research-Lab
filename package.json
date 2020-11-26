@@ -1,6 +1,6 @@
 {
     "title": "Clean Blog Jekyll",
-    "name": "SPQR-Research-Lab",
+    "name": "daily_update",
     "version": "4.0.9",
     "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
     "keywords": [
@@ -13,7 +13,7 @@
     ],
     "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/SPQR-Research-Lab/issues",
+        "url": "https://github.com/BlackrockDigital/daily_update/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/SPQR-Research-Lab.git"
+        "url": "https://github.com/BlackrockDigital/daily_update.git"
     },
     "dependencies": {
         "bootstrap": "4.3.1",
